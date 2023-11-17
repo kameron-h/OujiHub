@@ -1,0 +1,50 @@
+#root {
+  margin: 0;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: rgb(242, 245, 234);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(10, 15, 13);
+  width: 100%;
+  color:rgb(242, 245, 234);
+  align-items: center;
+  gap: 50px;
+}
+
+.headerTitle {
+  margin-left: 20px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(121, 93, 211);
+}
+
+.headerLink {
+  color: rgb(242, 245, 234);
+}
+
+.headerLink:hover {
+  color: rgb(121, 93, 211);
+  transition: color 0.25s;
+}
+
+.active {
+  background-color: rgb(121, 93, 211);
+  transition: background-color 0.25s;
+}

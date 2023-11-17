@@ -1,0 +1,27 @@
+.ViewAll {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+#search {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(242, 245, 234);
+    border-radius: 20px;
+    padding: 0px 20px 20px 20px;
+    float: left;
+    margin: 20px 50px 0px 20px;
+}
+  
+.active {
+    background-color: rgb(121, 93, 211);
+    transition: background-color 0.25s;
+}

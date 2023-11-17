@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+
+.createPost {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.red {
+    color: rgb(204, 41, 54);
+}
+
+.error {
+    border: 1px solid rgb(204, 41, 54);
+}
+
+.videoMust {
+    font-size: 20px;
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+textarea {
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid rgb(121, 93, 211);;
+    font-size: 20px;
+    font-family: inherit;
+    resize: none;
+    background-color: rgb(10, 15, 13);
+    color: rgb(242, 245, 234);
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid rgb(121, 93, 211);;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: rgb(10, 15, 13);
+    color: rgb(242, 245, 234);
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+    background-color: rgb(10, 15, 13);
+    color:rgb(242, 245, 234);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 20px;
+  }
+
+input[type=submit]:hover {
+    border-color: rgb(121, 93, 211);
+    transition: border 0.25s;
+}
+
+::placeholder {
+    color: rgb(142, 159, 163);
+    opacity: 1;
+}
